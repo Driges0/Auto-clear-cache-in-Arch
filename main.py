@@ -1,7 +1,7 @@
 import subprocess
 
 if 'clear-cache.desktop' not in subprocess.check_output('ls ~/.local/share/applications/', shell=True).decode('utf-8'):
-    subprocess.run("sudo cp clear-cache.text ~/.local/share/applications/clear-cache.desktop", shell=True)
+    subprocess.run("sudo cp clear-cache.desktop ~/.local/share/applications/clear-cache.desktop", shell=True)
     subprocess.run("sudo mkdir /usr/bin/ceche_cleaner", shell=True)
     subprocess.run("sudo cp main.py /usr/bin/ceche_cleaner/", shell=True)
     subprocess.run("sudo chmod +x ~/.local/share/applications/clear-cache.desktop", shell=True)
