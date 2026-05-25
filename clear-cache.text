@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=python /usr/bin/ceche_cleaner/main.py
+Terminal=true
+Categories=System;ceche_cleaner;
+
+Name=Cache_cleaner
