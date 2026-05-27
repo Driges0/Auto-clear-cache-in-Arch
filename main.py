@@ -15,7 +15,7 @@ except:
     exit()
 
 print("Auto clear cache for you Arch\n\n")
-print(f"Cache wait to clear: {size_cache}\n")
+print(f"Cache wait to clear: {size_cache.split('\')[0]}\n")
 
 ansfer = input("Do you wan to clear cache?\nYes/No >>>")
 
